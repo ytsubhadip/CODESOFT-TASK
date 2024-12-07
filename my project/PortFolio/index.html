@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT Profile</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--NAVBAR START-->
+    <header>
+        <nav class="navbar">
+            <div class="left-side">
+                <h1>
+                    YT <span class="parple">subhadip</span>
+                    &nbsp;&nbsp;Portfolio
+                </h1>
+            </div>
+            <div class="right-side">
+                <div class="manu">
+                    <ul>
+                        <li><a href="#">Project File</a></li>
+                        <li><a href="#first">Home</a></li>
+                        <li><a href="#about">About US</a></li>
+                        <li><a href="#skills">Learn Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="profile_image">
+
+            </div>
+        </nav>
+    </header>
+    <!--NAVBAR END-->
+    <!--BODY START-->
+    <main>
+        <section class="firstSection" id="first">
+            <div class="leftSide">
+                <div class="title-section">
+                    Hi,<br> My name is
+                    <span class="parple">Subhadip</span>
+                    <br>
+                    <span id="element"></span>
+                </div>
+                <div class="logo-section">
+                    <span>
+                        <i class="fa-brands fa-linkedin " style="color:#0077B5;"></i>
+                    </span>
+                    <span>
+                        <i class="fa-brands fa-github" style="color: black;"></i>
+                    </span>
+                    <span>
+                        <i class="fa-brands fa-youtube" style="color: #FF0033;"></i>
+                    </span>
+                    <span>
+                        <i class="fa-brands fa-facebook " style="color: rgb(13, 132, 236);"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="rightSide">
+
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h1><span class="parple">About </span>US</h1>
+            <div class="about-main">
+                <div class="leftBox">
+                    <img src="image/my profile.jpg" alt="">
+                </div>
+                <div class="rightBox">
+                    <span>Hi, <span class="parple"> &nbsp;  I'm Subhadip</span></span>
+                    <p>
+                        &#34;A 19-year-old aspiring data scientist currently pursuing a BSc in Data Science. I'm passionate
+                        about harnessing the power of data to uncover insights and drive innovation.
+                        Beyond the world of data, I'm an avid esports enthusiast, always eager to explore the
+                        competitive gaming landscape. &#34;
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="secoundSection" id="skills">
+            <span>Learn <span class="parple">Programming</span></span>
+            <div class="lern">
+                <img src="image/lern1.jpg" alt="" srcset="">
+                <img src="image/lern2.jpg" alt="" srcset="">
+                <img src="image/lern3.jpg" alt="" srcset="">
+                <img src="image/lern4.jpg" alt="" srcset="">
+                <img src="image/lern5.jpg" alt="" srcset="">
+                <img src="image/lern6.jpg" alt="" srcset="">
+                <img src="image/lern7.jpg" alt="" srcset="">
+
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="box">
+                <h1>Contact US</h1>
+                <div>
+                    <label for="">Name</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div>
+                    <label for="">Phone Number</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div>
+                    <label for="">Email</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div>
+                    <label for="">Course</label>
+                    <select>
+                        <option value="BCA">BCA</option>
+                        <option value="BSC">BSC</option>
+                        <option value="BSC DATA SCIENCE">BSC Data Science</option>
+                        <option value="BSC SYBER SEQUIRYTE">Bsc SYBER</option>    
+                    </select>
+                </div>
+                <div>
+                    <label for="">Message</label>
+                    <br>
+                    <textarea>
+
+                    </textarea>
+                </div>
+                <div>
+                    <button>submit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--BODY END-->
+   
+    <script src="javaScript.js">
+
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['&amp;coder.', 'Editar  .'],
+            typeSpeed: 30,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+/* global selection*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mochiy+Pop+P+One&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+    font-family: "poppins";
+}
+body{
+    background-color: rgb(2, 2, 36);
+}
+
+/* navbar css */
+header .navbar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar.logo-section img{
+    height: 10px;
+}
+.navbar .manu{
+
+    /* border:  2px solid black; */
+    
+
+}
+.navbar .manu ul{
+    display: flex;
+    
+}
+.navbar .manu ul li{
+    list-style: none;
+    background-color: rgb(0,147,242);
+    margin: 0px 15px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    transition: 0.5s all;
+}
+.navbar .manu ul li:hover{
+    background-color: #303F4E;
+}
+.navbar .manu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+/*first section css*/
+main{
+    padding: 20px 50px; 
+}
+main .first-section{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-section .first-text{
+    /* background-color: red; */
+    height: 80%;
+
+}
+.first-text h1{
+    margin: 30px;
+    font-size: 2.5rem;
+    color: #3E0261;
+}
+.first-text h3{
+    font-size: 1.5rem;
+    margin-top: 40px;
+    font-family: "Mochiy Pop P One", sans-serif;
+    margin-left: 70px;
+}
+.first-text button{
+    margin: 70px;
+    padding: 8px 30px;
+    border-radius: 20px;
+    transition: 0.5s all;
+    border: 3px solid;
+    font-size: 1.2rem;
+}
+.first-text button:hover{
+    background-color: #303F4E;
+    border: 3px solid white;
+    color: white;
+}
+.first-text .social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon span{
+    position: relative;
+    background-color: rgb(241, 237, 237);
+    margin: 0px 15px;
+    text-align: center;
+    align-content: center;
+    height: 50px ;
+    width: 50px;
+    border-radius: 50px;
+    
+}
+.social-icon span i{
+    
+    font-size: 2rem;
+
+}
+.first-section .first-image{
+    /* background-color: red; */
+
+}
+
+/*contact saction*/
+.contact-box{
+    color: white;
+    padding: 20px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.contact-box .ui-contact{
+width: 30%;
+padding: 10px;
+
+}
+.contact-box .ui-contact h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.contact-box .ui-contact label{
+    font-size: 1.5rem;
+}
+.contact-box .ui-contact input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    
+}
+.contact-box .ui-contact button{
+    background-color: rgb(0,147,242);
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-left:30% ;
+    margin-top: 10%;
+}
+footer{
+    padding: 20px ;
+    background-color: #EBEADF;
+    
+}
+footer .first-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer  h3{
+    text-align: center;
+    margin: 20px 0px;
+    
+}
